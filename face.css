@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(185, 199, 199, 0.267);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.container .par{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 130px;
+}
+.par h2{
+    color: rgba(5, 76, 230, 0.918);
+    font-size: 78px;
+    margin-bottom: 8px;
+    font-weight: 750;
+}
+.par p{
+    color: rgba(17, 17, 17, 0.925);
+    font-size: 36px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.up{
+    width: 490px;
+    height: 420px;
+    align-items: center;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 8px;
+    margin: auto;
+    justify-content: center;
+    padding-top: 10px;
+    box-shadow: -1px 1px 10px rgba(187, 186, 186, 0.884);
+    display: flex;
+    flex-wrap: wrap;
+}
+form .text{
+    margin: auto;
+    width: 93%;
+    height: 60px;
+    border: none;
+    border: solid 1px #e2dede ;
+    outline: none;
+    padding-left: 20px;
+    border-radius: 6px;
+    font-size: 20px;
+    margin-bottom: 6px;
+}
+form .pass{
+    text-decoration: none;
+    color: rgba(0, 102, 218, 0.89);
+    font-size:16px ;
+    font-weight: 600;
+    width: 90%;
+   
+}
+form .up hr{   
+    width: 90%;
+    margin: 5px 10px 10px 15px;
+    justify-content: space-around;
+    border: none;
+    background-color: #cecaca9d;
+    height: 1px;
+}
+form .login{
+    margin: auto;
+    width: 93%;
+    height: 60px;
+    border: none;
+    background-color: rgba(0, 102, 218, 0.89);
+    color: #ffffff;
+    outline: none;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 600;
+
+}
+form .creat{
+    margin: auto;
+    width: 50%;
+    height: 60px;
+    border: none;
+    background-color: rgba(5, 163, 5, 0.822);
+    color: #ffffff;
+    outline: none;
+    border-radius: 8px;
+    font-size: 21px;
+    font-weight: 550;
+    letter-spacing: .2px;    
+    margin-bottom: 20px;
+}
+.page{
+    text-align: center;
+    margin-top: 35px;
+    font-size: 17px;
+    font-weight: 540;
+}
+.page .a{
+    color: black;
+    text-decoration: none;
+}
